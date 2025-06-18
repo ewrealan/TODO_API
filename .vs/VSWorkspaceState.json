@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\todo-angular-v2",
+    "\\todo-angular-v2\\src",
+    "\\todo-angular-v2\\src\\app",
+    "\\todo-angular-v2\\src\\app\\components",
+    "\\todo-angular-v2\\src\\app\\components\\task-list",
+    "\\Todo_Api",
+    "\\Todo_Api\\Controllers",
+    "\\Todo_Api\\Models",
+    "\\Todo_Api\\Services"
+  ],
+  "SelectedNode": "\\todo-angular-v2\\src\\app\\components\\task-list\\task-list.component.ts",
+  "PreviewInSolutionExplorer": false
+}
