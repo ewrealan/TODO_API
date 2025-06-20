@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\Controllers",
+    "\\Data",
+    "\\DTOs"
   ],
   "PreviewInSolutionExplorer": false
 }

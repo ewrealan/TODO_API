@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Todo_Api.Data;
-using Todo_Api.Dtos;
 using Todo_Api.Models;
 
 namespace Todo_Api.Services
@@ -14,33 +13,22 @@ namespace Todo_Api.Services
             _context = context;
         }
 
-        // DTO ile dönen versiyon
-        public async Task<List<CategoryDto>> GetAllAsync()
+        public async Task<List<Category>> GetAllAsync()
         {
-            return await _context.Categories
-                .Select(c => new CategoryDto
-                {
-                    Id = c.Id,
-                    Name = c.Name,
-                    Color = c.Color
-                })
-                .ToListAsync();
+            return await _context.Categories.ToListAsync();
         }
 
-        public async Task<CategoryDto?> GetByIdAsync(int id)
+        public async Task<Category?> GetByIdAsync(int id)
         {
-            return await _context.Categories
-                .Where(c => c.Id == id)
-                .Select(c => new CategoryDto
-                {
-                    Id = c.Id,
-                    Name = c.Name,
-                    Color = c.Color
-                })
-                .FirstOrDefaultAsync();
+            return await _context.Categories.FindAsync(id);
         }
 
-        // Geri kalanlar şimdilik aynı kalabilir:
+        public async Task<Category?> GetByNameAsync(string name)
+        {
+            return await _context.Categories
+                .FirstOrDefaultAsync(c => c.Name.ToLower() == name.ToLower());
+        }
+
         public async Task<Category> CreateAsync(Category category)
         {
             _context.Categories.Add(category);
@@ -50,16 +38,12 @@ namespace Todo_Api.Services
 
         public async Task<bool> UpdateAsync(int id, Category updatedCategory)
         {
-            var existing = await _context.Categories.FindAsync(id);
-            if (existing == null) return false;
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null) return false;
 
-            existing.Name = updatedCategory.Name;
-            existing.Color = updatedCategory.Color;
-            existing.IconName = updatedCategory.IconName;
-            existing.IsDefault = updatedCategory.IsDefault;
-
-            await _context.SaveChangesAsync();
-            return true;
+            category.Name = updatedCategory.Name;
+            category.Color = updatedCategory.Color;
+            return await _context.SaveChangesAsync() > 0;
         }
 
         public async Task<bool> DeleteAsync(int id)
@@ -68,8 +52,7 @@ namespace Todo_Api.Services
             if (category == null) return false;
 
             _context.Categories.Remove(category);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _context.SaveChangesAsync() > 0;
         }
     }
 }

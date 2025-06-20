@@ -1,14 +1,12 @@
-﻿namespace Todo_Api.Models
-{
-    public class Category
-    {
-        public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Color { get; set; } = "#000000";
-        public string IconName { get; set; } = "default";
-        public bool IsDefault { get; set; }
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
-        // Navigation property
-        public ICollection<TaskItem>? Tasks { get; set; }
-    }
+public class Category
+{
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+
+    public string Name { get; set; } = string.Empty;
+    public string Color { get; set; } = string.Empty;
+    public string IconName { get; set; } = string.Empty;
+    public bool IsDefault { get; set; }
 }

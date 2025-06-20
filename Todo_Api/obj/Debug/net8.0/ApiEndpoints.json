@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Todo_Api.Models.Category, Todo_Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Todo_Api.Dtos.CategoryDto, Todo_Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,14 +28,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "Todo_Api.Models.Category",
+        "Name": "dto",
+        "Type": "Todo_Api.Dtos.CreateCategoryDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Todo_Api.Models.Category",
+        "Type": "Todo_Api.Dtos.CategoryDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Todo_Api.Models.Category",
+        "Type": "Todo_Api.Dtos.CategoryDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,7 +86,7 @@
       },
       {
         "Name": "updatedCategory",
-        "Type": "Todo_Api.Models.Category",
+        "Type": "Category",
         "IsRequired": true
       }
     ],

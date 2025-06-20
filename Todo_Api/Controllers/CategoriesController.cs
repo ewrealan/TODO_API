@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Todo_Api.Models;
 using Todo_Api.Services;
+using Todo_Api.Dtos;
 
 namespace Todo_Api.Controllers
 {
@@ -15,29 +16,61 @@ namespace Todo_Api.Controllers
             _categoryService = categoryService;
         }
 
+        // ✅ Tüm kategorileri getir
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+        public async Task<ActionResult<IEnumerable<CategoryDto>>> GetCategories()
         {
             var categories = await _categoryService.GetAllAsync();
-            return Ok(categories);
+
+            // Category → CategoryDto dönüşümü
+            var dtoList = categories.Select(c => new CategoryDto
+            {
+                Name = c.Name,
+                Color = c.Color
+            });
+
+            return Ok(dtoList);
         }
 
+        // ✅ Belirli bir kategoriyi getir
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetCategory(int id)
+        public async Task<ActionResult<CategoryDto>> GetCategory(int id)
         {
             var category = await _categoryService.GetByIdAsync(id);
             if (category == null) return NotFound();
-            return Ok(category);
+
+            var dto = new CategoryDto
+            {
+                Name = category.Name,
+                Color = category.Color
+            };
+
+            return Ok(dto);
         }
 
-        // ✅ Yeni kategori oluşturma (POST)
+        // ✅ Yeni kategori oluştur (CreateCategoryDto ile)
         [HttpPost]
-        public async Task<ActionResult<Category>> CreateCategory(Category category)
+        public async Task<ActionResult<CategoryDto>> CreateCategory(CreateCategoryDto dto)
         {
+            var category = new Category
+            {
+                Name = dto.Name,
+                Color = dto.Color,
+                IsDefault = false
+            };
+
             var created = await _categoryService.CreateAsync(category);
-            return CreatedAtAction(nameof(GetCategory), new { id = created.Id }, created);
+
+            var resultDto = new CategoryDto
+            {
+                Name = created.Name,
+                Color = created.Color
+            };
+
+            return CreatedAtAction(nameof(GetCategory), new { id = created.Id }, resultDto);
         }
 
+        // 🟡 İsteğe Bağlı: Güncelleme için UpdateCategoryDto eklenebilir
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCategory(int id, Category updatedCategory)
         {
@@ -46,6 +79,7 @@ namespace Todo_Api.Controllers
             return NoContent();
         }
 
+        // ✅ Kategori sil
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {

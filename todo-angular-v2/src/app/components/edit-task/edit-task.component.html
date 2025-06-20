@@ -1,0 +1,48 @@
+<div class="edit-task-container">
+  <h2>Görevi Düzenle</h2>
+
+  <form (ngSubmit)="updateTask()" #editForm="ngForm">
+    <!-- Başlık -->
+    <div class="form-group">
+      <label for="title">Başlık:</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        [(ngModel)]="task.title"
+        required
+        placeholder="Görev başlığı"
+      />
+    </div>
+
+    <!-- Kategori Dropdown -->
+    <div class="form-group">
+      <label for="category">Kategori:</label>
+      <select
+        id="category"
+        name="categoryName"
+        [(ngModel)]="task.categoryName"
+        required
+      >
+        <option value="">Kategori seçin</option>
+        <option *ngFor="let category of categories" [value]="category.name">
+          {{ category.name }} ({{ category.color }})
+        </option>
+      </select>
+    </div>
+
+    <!-- Tamamlanma Durumu -->
+    <div class="form-group">
+      <label for="isCompleted">Durum:</label>
+      <input
+        type="checkbox"
+        id="isCompleted"
+        name="isCompleted"
+        [(ngModel)]="task.isCompleted"
+      />
+      <span>{{ task.isCompleted ? 'Tamamlandı' : 'Tamamlanmadı' }}</span>
+    </div>
+
+    <button type="submit" [disabled]="!editForm.form.valid">Kaydet</button>
+  </form>
+</div>

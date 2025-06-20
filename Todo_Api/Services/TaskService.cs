@@ -14,7 +14,7 @@ namespace Todo_Api.Services
             _context = context;
         }
 
-        // DTO'ya dönüşümle tüm görevleri getir
+        // ✅ Görev listesini DTO ile getir
         public async Task<List<TaskDto>> GetAllAsync()
         {
             return await _context.Tasks
@@ -24,7 +24,6 @@ namespace Todo_Api.Services
                     Id = t.Id,
                     Title = t.Title,
                     Description = t.Description,
-                    CategoryId = t.CategoryId,
                     CategoryName = t.Category!.Name,
                     CategoryColor = t.Category.Color,
                     DueDate = t.DueDate,
@@ -34,7 +33,7 @@ namespace Todo_Api.Services
                 .ToListAsync();
         }
 
-        // ID ile görev getir (DTO)
+        // ✅ Görev ID ile getir (DTO)
         public async Task<TaskDto?> GetByIdAsync(int id)
         {
             return await _context.Tasks
@@ -45,7 +44,6 @@ namespace Todo_Api.Services
                     Id = t.Id,
                     Title = t.Title,
                     Description = t.Description,
-                    CategoryId = t.CategoryId,
                     CategoryName = t.Category!.Name,
                     CategoryColor = t.Category.Color,
                     DueDate = t.DueDate,
@@ -55,7 +53,7 @@ namespace Todo_Api.Services
                 .FirstOrDefaultAsync();
         }
 
-        // ✅ Yeni görev ekleme
+        // ✅ Yeni görev oluştur
         public async Task<TaskItem> CreateAsync(TaskItem task)
         {
             _context.Tasks.Add(task);
@@ -63,7 +61,7 @@ namespace Todo_Api.Services
             return task;
         }
 
-        // ✅ Görev güncelleme
+        // ✅ Görev güncelle
         public async Task<bool> UpdateAsync(int id, TaskItem updatedTask)
         {
             var existing = await _context.Tasks.FindAsync(id);
@@ -80,7 +78,7 @@ namespace Todo_Api.Services
             return true;
         }
 
-        // ✅ Görev silme
+        // ✅ Görev sil
         public async Task<bool> DeleteAsync(int id)
         {
             var task = await _context.Tasks.FindAsync(id);
@@ -91,7 +89,7 @@ namespace Todo_Api.Services
             return true;
         }
 
-        // ✅ Görevi tamamlandı olarak işaretle (Toggle)
+        // ✅ Görev tamamlandı/geri al toggle
         public async Task<bool> ToggleCompleteAsync(int id)
         {
             var task = await _context.Tasks.FindAsync(id);

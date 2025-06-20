@@ -10,13 +10,15 @@ namespace Todo_Api.Controllers
     public class TasksController : ControllerBase
     {
         private readonly TaskService _taskService;
+        private readonly CategoryService _categoryService;
 
-        public TasksController(TaskService taskService)
+        public TasksController(TaskService taskService, CategoryService categoryService)
         {
             _taskService = taskService;
+            _categoryService = categoryService;
         }
 
-        // GET: api/tasks
+        // ✅ Tüm görevleri getir
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TaskDto>>> GetTasks()
         {
@@ -24,7 +26,7 @@ namespace Todo_Api.Controllers
             return Ok(tasks);
         }
 
-        // GET: api/tasks/{id}
+        // ✅ Belirli bir görevi getir
         [HttpGet("{id}")]
         public async Task<ActionResult<TaskDto>> GetTask(int id)
         {
@@ -33,35 +35,44 @@ namespace Todo_Api.Controllers
             return Ok(task);
         }
 
-        // POST: api/tasks
+        // ✅ Yeni görev oluştur (categoryName ile)
         [HttpPost]
         public async Task<IActionResult> CreateTask(CreateTaskDto dto)
         {
+            // categoryName → categoryId çevir
+            var category = await _categoryService.GetByNameAsync(dto.CategoryName);
+            if (category == null)
+                return BadRequest("Geçersiz kategori adı.");
+
             var newTask = new TaskItem
             {
                 Title = dto.Title,
                 Description = dto.Description,
-                CategoryId = dto.CategoryId,
+                CategoryId = category.Id, // Elle değil, sistem belirler
                 PriorityLevel = dto.PriorityLevel,
                 DueDate = dto.DueDate,
                 CreatedDate = DateTime.Now,
-                IsCompleted = false
+                IsCompleted = dto.IsCompleted
             };
 
             var createdTask = await _taskService.CreateAsync(newTask);
             return CreatedAtAction(nameof(GetTask), new { id = createdTask.Id }, createdTask);
         }
 
-        // ✅ PUT: api/tasks/{id}
+        // ✅ Görev güncelle
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTask(int id, UpdateTaskDto dto)
         {
+            var category = await _categoryService.GetByNameAsync(dto.CategoryName);
+            if (category == null)
+                return BadRequest("Geçersiz kategori adı.");
+
             var updatedTask = new TaskItem
             {
                 Id = id,
                 Title = dto.Title,
                 Description = dto.Description,
-                CategoryId = dto.CategoryId,
+                CategoryId = category.Id,
                 PriorityLevel = dto.PriorityLevel,
                 DueDate = dto.DueDate,
                 IsCompleted = dto.IsCompleted
@@ -70,10 +81,10 @@ namespace Todo_Api.Controllers
             var result = await _taskService.UpdateAsync(id, updatedTask);
             if (!result) return NotFound();
 
-            return Ok(updatedTask); // ✅ Angular güncellenen nesneyi bekliyor
+            return Ok(updatedTask);
         }
 
-        // DELETE: api/tasks/{id}
+        // ✅ Görev sil
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTask(int id)
         {
@@ -82,7 +93,7 @@ namespace Todo_Api.Controllers
             return NoContent();
         }
 
-        // PATCH: api/tasks/{id}/complete
+        // ✅ Görev tamamlama toggle
         [HttpPatch("{id}/complete")]
         public async Task<IActionResult> ToggleComplete(int id)
         {

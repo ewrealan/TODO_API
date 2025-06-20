@@ -1,36 +1,52 @@
 <div class="task-add-container">
   <h3>Yeni Görev Ekle</h3>
 
-  <form (ngSubmit)="addTask()" #taskForm="ngForm">
-    <!-- Başlık alanı -->
-    <div class="form-group">
+  <form (ngSubmit)="addTask()">
+    <!-- Başlık -->
+    <div>
       <label for="title">Başlık:</label>
-      <input
-        type="text"
-        id="title"
-        name="title"
-        [(ngModel)]="newTask.title"
-        required
-        placeholder="Görev başlığı girin"
-      />
+      <input type="text" id="title" [(ngModel)]="newTask.title" name="title" required />
     </div>
 
-    <!-- Kategori dropdown -->
-    <div class="form-group">
-      <label for="category">Kategori:</label>
-      <select
-        id="category"
-        name="categoryId"
-        [(ngModel)]="newTask.categoryId"
-        required
-      >
-        <option value="">Kategori seçin</option>
-        <option *ngFor="let cat of categories" [value]="cat.id">
-          {{ cat.name }} ({{ cat.color }})
-        </option>
+    <!-- Açıklama -->
+    <div>
+      <label for="description">Açıklama:</label>
+      <textarea id="description" [(ngModel)]="newTask.description" name="description"></textarea>
+    </div>
+
+    <!-- Tarih -->
+    <div>
+      <label for="dueDate">Bitiş Tarihi:</label>
+      <input type="date" id="dueDate" [(ngModel)]="newTask.dueDate" name="dueDate" />
+    </div>
+
+    <!-- Öncelik -->
+    <div>
+      <label for="priorityLevel">Öncelik:</label>
+      <select id="priorityLevel" [(ngModel)]="newTask.priorityLevel" name="priorityLevel">
+        <option [value]="1">Düşük</option>
+        <option [value]="2">Orta</option>
+        <option [value]="3">Yüksek</option>
       </select>
     </div>
 
-    <button type="submit" [disabled]="!taskForm.form.valid">Ekle</button>
+    <!-- Kategori -->
+    <div>
+      <label for="category">Kategori:</label>
+      <select id="category" [(ngModel)]="newTask.categoryName" name="categoryName" required>
+        <option *ngFor="let cat of categories" [value]="cat.name">{{ cat.name }}</option>
+      </select>
+    </div>
+
+    <!-- Tamamlandı -->
+    <div>
+      <label>
+        <input type="checkbox" [(ngModel)]="newTask.isCompleted" name="isCompleted" />
+        Tamamlandı
+      </label>
+    </div>
+
+    <!-- Ekle Butonu -->
+    <button type="submit">Görevi Ekle</button>
   </form>
 </div>

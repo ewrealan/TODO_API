@@ -17,11 +17,14 @@ export class TaskAddComponent implements OnInit {
   newTask: Task = {
     id: 0,
     title: '',
-    isCompleted: false,
-    categoryId: 0
+    description: '',
+    dueDate: '',
+    priorityLevel: 1,
+    categoryName: '',
+    isCompleted: false
   };
 
-  categories: Category[] = []; // ✅ dropdown verisi
+  categories: Category[] = [];
 
   constructor(
     private taskService: TaskService,
@@ -36,12 +39,20 @@ export class TaskAddComponent implements OnInit {
   }
 
   addTask(): void {
-    if (!this.newTask.title.trim()) return;
+    if (!this.newTask.title.trim() || !this.newTask.categoryName) return;
 
     this.taskService.addTask(this.newTask).subscribe({
       next: (createdTask) => {
         console.log('Yeni görev eklendi:', createdTask);
-        this.newTask = { id: 0, title: '', isCompleted: false, categoryId: 0 };
+        this.newTask = {
+          id: 0,
+          title: '',
+          description: '',
+          dueDate: '',
+          priorityLevel: 1,
+          categoryName: '',
+          isCompleted: false
+        };
       },
       error: (err) => {
         console.error('Görev eklenirken hata:', err);

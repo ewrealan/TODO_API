@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\migrations\\todocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\migrations\\todocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\migrations\\20250615201555_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\migrations\\20250615201555_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\todo-angular-v2\\src\\app\\components\\task-list\\task-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -13,66 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\todo-angular-v2\\src\\app\\components\\task-list\\task-list.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:todo-angular-v2\\src\\app\\components\\task-list\\task-list.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\task.service.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Todo_Api\\Services\\task.service.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\task.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Todo_Api\\Models\\task.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\migrations\\20250615201555_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\migrations\\20250615201555_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|c:\\users\\alane\\onedrive\\masa\u00FCst\u00FC\\bilicisoft\\todo_api\\todo_api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E1A6E5-E264-4722-9B97-9AF1850A8162}|Todo_Api\\Todo_Api.csproj|solutionrelative:todo_api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,19 +86,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Todo_Api\\DTOs\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\CreateCategoryDto.cs",
+              "RelativeToolTip": "Todo_Api\\DTOs\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:07:56.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Todo_Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\appsettings.Development.json",
+              "RelativeToolTip": "Todo_Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T06:49:02.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Migrations\\TodoContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Todo_Api\\Migrations\\TodoContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Migrations\\TodoContextModelSnapshot.cs",
+              "RelativeToolTip": "Todo_Api\\Migrations\\TodoContextModelSnapshot.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:48:24.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "task-list.spec.ts",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\todo-angular-v2\\src\\app\\components\\task-list\\task-list.spec.ts",
               "RelativeDocumentMoniker": "todo-angular-v2\\src\\app\\components\\task-list\\task-list.spec.ts",
@@ -106,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "task-list.component.ts",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\todo-angular-v2\\src\\app\\components\\task-list\\task-list.component.ts",
               "RelativeDocumentMoniker": "todo-angular-v2\\src\\app\\components\\task-list\\task-list.component.ts",
@@ -114,120 +150,96 @@
               "RelativeToolTip": "todo-angular-v2\\src\\app\\components\\task-list\\task-list.component.ts",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-15T22:20:38.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "task.model.ts",
-              "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\task.model.ts",
-              "RelativeDocumentMoniker": "Todo_Api\\Models\\task.model.ts",
-              "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\task.model.ts",
-              "RelativeToolTip": "Todo_Api\\Models\\task.model.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-15T22:14:28.68Z"
+              "WhenOpened": "2025-06-15T22:20:38.028Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "task.service.ts",
-              "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\task.service.ts",
-              "RelativeDocumentMoniker": "Todo_Api\\Services\\task.service.ts",
-              "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\task.service.ts",
-              "RelativeToolTip": "Todo_Api\\Services\\task.service.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-15T22:12:17.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "UpdateTaskDto.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\UpdateTaskDto.cs",
               "RelativeDocumentMoniker": "Todo_Api\\DTOs\\UpdateTaskDto.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\UpdateTaskDto.cs",
               "RelativeToolTip": "Todo_Api\\DTOs\\UpdateTaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T21:48:01.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CreateTaskDto.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\CreateTaskDto.cs",
               "RelativeDocumentMoniker": "Todo_Api\\DTOs\\CreateTaskDto.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\CreateTaskDto.cs",
               "RelativeToolTip": "Todo_Api\\DTOs\\CreateTaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T21:47:44.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "Todo_Api\\DTOs\\CategoryDto.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\CategoryDto.cs",
               "RelativeToolTip": "Todo_Api\\DTOs\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T21:40:10.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\TaskDto.cs",
               "RelativeDocumentMoniker": "Todo_Api\\DTOs\\TaskDto.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\DTOs\\TaskDto.cs",
               "RelativeToolTip": "Todo_Api\\DTOs\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T21:34:25.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\CategoryService.cs",
               "RelativeToolTip": "Todo_Api\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T21:29:49.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Services\\TaskService.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Services\\TaskService.cs",
               "RelativeToolTip": "Todo_Api\\Services\\TaskService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T21:25:58.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Todo_Api\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T20:36:50.539Z"
+              "WhenOpened": "2025-06-15T20:36:50.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\appsettings.json",
               "RelativeDocumentMoniker": "Todo_Api\\appsettings.json",
@@ -239,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "TodoContext.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Data\\TodoContext.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Data\\TodoContext.cs",
@@ -251,64 +263,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Controllers\\TasksController.cs",
               "RelativeToolTip": "Todo_Api\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T20:35:50.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T20:35:50.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "20250615201555_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Migrations\\20250615201555_InitialCreate.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Migrations\\20250615201555_InitialCreate.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Migrations\\20250615201555_InitialCreate.cs",
               "RelativeToolTip": "Todo_Api\\Migrations\\20250615201555_InitialCreate.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T20:15:56.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Program.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Program.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Program.cs",
               "RelativeToolTip": "Todo_Api\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB4AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T19:48:11.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Models\\TaskItem.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\TaskItem.cs",
               "RelativeToolTip": "Todo_Api\\Models\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T19:45:09.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Todo_Api\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\alane\\OneDrive\\Masa\u00FCst\u00FC\\bilicisoft\\Todo_Api\\Todo_Api\\Models\\Category.cs",
               "RelativeToolTip": "Todo_Api\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T19:42:36.385Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 229,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

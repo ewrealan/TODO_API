@@ -2,10 +2,13 @@
 {
     public class CreateTaskDto
     {
-        public string Title { get; set; } = string.Empty;
+        public string Title { get; set; } = null!;
         public string? Description { get; set; }
-        public int CategoryId { get; set; }
-        public int PriorityLevel { get; set; }
         public DateTime? DueDate { get; set; }
+        public int PriorityLevel { get; set; }
+
+        public string CategoryName { get; set; } = null!; // ❗ categoryId yok!
+
+        public bool IsCompleted { get; set; }
     }
 }

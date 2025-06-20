@@ -11,6 +11,6 @@
     "\\Todo_Api\\Models",
     "\\Todo_Api\\Services"
   ],
-  "SelectedNode": "\\todo-angular-v2\\src\\app\\components\\task-list\\task-list.component.ts",
+  "SelectedNode": "\\Todo_Api\\Controllers\\TasksController.cs",
   "PreviewInSolutionExplorer": false
 }

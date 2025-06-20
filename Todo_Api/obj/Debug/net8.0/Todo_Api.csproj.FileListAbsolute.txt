@@ -169,3 +169,4 @@ C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.pdb
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.genruntimeconfig.cache
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\ref\Todo_Api.dll
+C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.sourcelink.json
