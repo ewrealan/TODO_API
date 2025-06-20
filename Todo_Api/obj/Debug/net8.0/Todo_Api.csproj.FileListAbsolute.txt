@@ -162,7 +162,6 @@ C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.csproj.Up2Date
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.dll
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\refint\Todo_Api.dll
@@ -170,3 +169,4 @@ C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.genruntimeconfig.cache
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\ref\Todo_Api.dll
 C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\Todo_Api.sourcelink.json
+C:\Users\alane\OneDrive\Masaüstü\bilicisoft\Todo_Api\Todo_Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

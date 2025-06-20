@@ -6,7 +6,7 @@ using Todo_Api.Services;
 namespace Todo_Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/todos")] // 🛠 Angular tarafıyla uyumlu olması için 'tasks' → 'todos' yapıldı
     public class TasksController : ControllerBase
     {
         private readonly TaskService _taskService;
@@ -39,7 +39,6 @@ namespace Todo_Api.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateTask(CreateTaskDto dto)
         {
-            // categoryName → categoryId çevir
             var category = await _categoryService.GetByNameAsync(dto.CategoryName);
             if (category == null)
                 return BadRequest("Geçersiz kategori adı.");
@@ -48,7 +47,7 @@ namespace Todo_Api.Controllers
             {
                 Title = dto.Title,
                 Description = dto.Description,
-                CategoryId = category.Id, // Elle değil, sistem belirler
+                CategoryId = category.Id,
                 PriorityLevel = dto.PriorityLevel,
                 DueDate = dto.DueDate,
                 CreatedDate = DateTime.Now,
@@ -103,3 +102,4 @@ namespace Todo_Api.Controllers
         }
     }
 }
+

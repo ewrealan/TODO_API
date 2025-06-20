@@ -190,7 +190,7 @@
         }
       }
     },
-    "/api/Tasks": {
+    "/api/todos": {
       "get": {
         "tags": [
           "Tasks"
@@ -257,7 +257,7 @@
         }
       }
     },
-    "/api/Tasks/{id}": {
+    "/api/todos/{id}": {
       "get": {
         "tags": [
           "Tasks"
@@ -358,7 +358,7 @@
         }
       }
     },
-    "/api/Tasks/{id}/complete": {
+    "/api/todos/{id}/complete": {
       "patch": {
         "tags": [
           "Tasks"

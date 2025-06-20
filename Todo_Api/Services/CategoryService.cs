@@ -23,10 +23,15 @@ namespace Todo_Api.Services
             return await _context.Categories.FindAsync(id);
         }
 
-        public async Task<Category?> GetByNameAsync(string name)
+        // ❗ ToLowerInvariant() yerine client-side filtreleme yapıldı (EF Core uyumsuzluk çözümü)
+        public Task<Category?> GetByNameAsync(string name)
         {
-            return await _context.Categories
-                .FirstOrDefaultAsync(c => c.Name.ToLower() == name.ToLower());
+            var result = _context.Categories
+                .AsEnumerable()
+                .FirstOrDefault(c =>
+                    string.Equals(c.Name, name, StringComparison.OrdinalIgnoreCase));
+
+            return Task.FromResult(result);
         }
 
         public async Task<Category> CreateAsync(Category category)
@@ -53,6 +58,25 @@ namespace Todo_Api.Services
 
             _context.Categories.Remove(category);
             return await _context.SaveChangesAsync() > 0;
+        }
+
+        // ✅ Varsayılan kategorileri bir kereye mahsus ekle
+        public async Task SeedAsync()
+        {
+            if (!_context.Categories.Any())
+            {
+                var defaultCategories = new List<Category>
+                {
+                    new() { Name = "İş", Color = "#3498db" },
+                    new() { Name = "Kişisel", Color = "#e67e22" },
+                    new() { Name = "Alışveriş", Color = "#9b59b6" },
+                    new() { Name = "Sağlık", Color = "#2ecc71" },
+                    new() { Name = "Eğitim", Color = "#e74c3c" }
+                };
+
+                _context.Categories.AddRange(defaultCategories);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }
